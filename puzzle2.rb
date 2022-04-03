@@ -6,7 +6,7 @@ require_relative 'puzzle1.rb'
 @uid=""
 
 #Creo la finestra 
-window = Gtk::Window.new("Rfid Window")
+window = Gtk::Window.new("Entrada")
 window.set_size_request(600,150)
 window.set_border_width(5)    
 window.set_window_position(:CENTER)
